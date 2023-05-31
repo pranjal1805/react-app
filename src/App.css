@@ -132,11 +132,11 @@
     cursor: pointer;
   }
   
-  .delete-icon {
+  .icons--delete-icon {
     margin-right: 0.25rem;
     color: #fff;
   }
   
-  .edit-icon {
+  .icons--edit-icon {
     color: #fff;
   }
