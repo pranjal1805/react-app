@@ -7,12 +7,7 @@
   }
   
   body {
-    
-      /* 90deg, */
-      background-color: rgba(48, 16, 255, 1);
-      /* rgba(48, 16, 255, 1) 0%,
-      rgba(100, 115, 255, 1) 100% */
-    
+    background-color: rgba(48, 16, 255, 1);
   }
   .todo-app {
     display: flex;
@@ -35,7 +30,7 @@
   
   .complete {
     text-decoration: line-through;
-    opacity: 0.4;
+    opacity: 0.3;
   }
   
   .todo-form {
@@ -68,7 +63,6 @@
       rgba(155, 0, 250, 1) 100%
     );
     color: #fff;
-    text-transform: capitalize;
   }
   
   .todo-input.edit {
