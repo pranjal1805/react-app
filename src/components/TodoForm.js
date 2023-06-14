@@ -11,6 +11,8 @@ function TodoForm(props) {
     inputRef.current.focus();
   });
 
+  //e.target is the element triggered by the event.
+  //e.target.value is the value.
   const handleChange = e => {
     //This method is used for both new updates as well as edits.
     //It simply sets the input as the value that we desire.
@@ -56,6 +58,7 @@ function TodoForm(props) {
             className='todo-input'
             ref={inputRef}
           />
+          
           <button onClick={handleSubmit} className='todo-button'>
             Add Todo
           </button>
